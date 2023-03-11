@@ -11,12 +11,16 @@ header .container {
 }
 
 body > header {
-    background-color: aqua;
+    background-color: brown;
     padding: 16px 0;
 }
 
+h1 {
+    color: white;
+}
+
 header li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -25,7 +29,7 @@ section h2,
     margin-bottom: 16px;
 }
 
-article h3 {
+.articles article h3 {
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -35,8 +39,8 @@ article p {
 }
 
 .articles article a {
-    background-color: blanchedalmond;
     color: white;
+    background-color: brown;
     padding: 4px;
     display: inline-block;
     text-decoration: none;
@@ -80,6 +84,10 @@ header li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.articles article header {
+    font-size: 14px;
+}
+
 .articles article h3 {
     font-size: 24px;
 }
@@ -92,14 +100,14 @@ section h2 {
     background-color: rgba(0, 255, 0, 0.1);
 }
 
-#sports .articles article a {
-    background-color: rgba(0, 100, 0, 0.8);
-}
-
 #economy {
     background-color: #f8f59f;
 }
 
-#economy .articles article a {
-    background-color: #ff9f1a;
+#tech {
+    background-color: rgba(0, 0, 150, 0.3);
+}
+
+#entertainment {
+    background-color: rgb(199, 170, 225);
 }
